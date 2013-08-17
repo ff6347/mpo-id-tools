@@ -84,4 +84,4 @@ Windows Vista und Windows 7
 Benutzer\\[Benutzername]\\AppData\\Roaming\\AdobeInDesign\\[Version][Sprache]\\Find-Change
 Queries\\[Abfrageart]
 
-Bei Fragen schreibt mir eine mail oder ruft mich an. Cheers euer Fab.
+Bei Fragen schreibt mir eine mail oder ruft mich an.
