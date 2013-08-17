@@ -1,0 +1,3 @@
+[submodule "batch-find-and-replace"]
+	path = batch-find-and-replace
+	url = git@github.com:fabiantheblind/batch-find-and-replace.git

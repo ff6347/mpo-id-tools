@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Query>
+<Header>
+<Version major="5" minor="1">
+</Version>
+<Application value="Adobe InDesign">
+</Application>
+<QueryType value="Object" qid="3">
+</QueryType>
+</Header>
+<Description>
+<ObjectType value="0">
+</ObjectType>
+<FindChangeOptions>
+<IncludeLockedLayers value="1">
+</IncludeLockedLayers>
+<IncludeLockedStories value="0">
+</IncludeLockedStories>
+<IncludeMasterPages value="1">
+</IncludeMasterPages>
+<IncludeHiddenLayers value="1">
+</IncludeHiddenLayers>
+<IncludeFootnotes value="1">
+</IncludeFootnotes>
+</FindChangeOptions>
+<FindFormatSettings>
+<GraphicsAttribute cls_id="28264" value="Black">
+</GraphicsAttribute>
+</FindFormatSettings>
+<ReplaceFormatSettings>
+<GraphicsAttribute cls_id="28264" value="Master_buntschwarz">
+</GraphicsAttribute>
+</ReplaceFormatSettings>
+</Description>
+</Query>
