@@ -1,0 +1,19 @@
+# these are the basic settings
+# the MUST be there
+do_text = false
+do_grep = true
+do_glyph = false
+do_object = false
+do_all_docs = false
+# now the file names
+# they have to be in one line
+# the toml specs say you can break lines in arrays
+# but the toml.js does not allow that at the moment
+[text]
+files = ["my_first_text_find_and_change","another one"]
+[grep]
+files = ["JM_NEU_SAVE_0_d_blank_zoll","JM_NEU_SAVE_0a_Anfuehrungen_I_hin","JM_NEU_SAVE_0b_Anfuehrungen_II_hin","JM_NEU_SAVE_0c_ABFUEHRUNGEN","JM_NEU_SAVE_0d_AN_AB_ersetzen","JM_NEU_SAVE_0e_ABFUEHRUNGEN","JM_NEU_SAVE_0f_AN_AB_ersetzen","JM_NEU_SAVE_0g_AN_AB_ersetzen","JM_NEU_SAVE_0h_Anab_in_Anab","JM_NEU_SAVE_1e_Zoll","JM_NEU_SAVE_2_aufzaehlungen","JM_NEU_SAVE_2b_ellipse","JM_NEU_SAVE_3a_blank_ellipse","JM_NEU_SAVE_3b_ellipse_blank","JM_NEU_SAVE_4a_blank_mm","JM_NEU_SAVE_4b_blank_cm","JM_NEU_SAVE_4d_blank_interpunktion","JM_NEU_SAVE_4e_komma_blank","JM_NEU_SAVE_4f_punkt_blank","JM_NEU_SAVE_4g_blank_ausrufezeichen","JM_NEU_SAVE_4h_blank_doppelpunkt","JM_NEU_SAVE_4i_blank_semikolon","JM_NEU_SAVE_4j_klammern_blank","JM_NEU_SAVE_4k_klammern_punct","JM_NEU_SAVE_4l_klammern_umbruch","JM_NEU_SAVE_4m_slash_blanks","JM_NEU_SAVE_5a_zoll_blank","JM_NEU_SAVE_5b_malzeichen_I_nach_zoll","JM_NEU_SAVE_5c_malzeichen_breite_hoehe_tiefe","JM_NEU_SAVE_5c1_malzeichen_breite_hoehe_tiefe_in_zahlen","JM_NEU_SAVE_5d_malzeichen_dxddzoll","JM_NEU_SAVE_5e_malzeichen_sdx","JM_NEU_SAVE_5f_malzeichen_sdx","JM_NEU_SAVE_6_Gedankenstrich","JM_NEU_SAVE_7_kHz","JM_NEU_SAVE_8a_X_teilig","JM_NEU_SAVE_8b_X_fach","JM_NEU_SAVE_9a_z_B","JM_NEU_SAVE_9b_aaO","JM_NEU_SAVE_9c_dh","JM_NEU_SAVE_9d_mE","JM_NEU_SAVE_9e_oae","JM_NEU_SAVE_9f_so","JM_NEU_SAVE_9g_su","JM_NEU_SAVE_9h_ua","JM_NEU_SAVE_9i_uU","JM_NEU_SAVE_9j_va","JM_NEU_SAVE_9k_zH","JM_NEU_SAVE_9l_zT","JM_NEU_SAVE_10a_seitenzahl","JM_NEU_SAVE_10b_seitenzahl_1_24stel","JM_NEU_SAVE_13_Apostroph","JM_NEU_SAVE_14c_Preisstrich","JM_NEU_SAVE_15a_Plugin","JM_NEU_SAVE_15b_Midi","JM_NEU_SAVE_15c_specs","JM_NEU_SAVE_15d_Features","JM_NEU_SAVE_16_Bisstrich_Ziffern","JM_NEU_SAVE_17a_Beschreibung_Marke","JM_NEU_SAVE_17a1_Beschreibung_Marke","JM_NEU_SAVE_17b_aufzaehlung_ranziehen","JM_NEU_SAVE_17c_textflussende_ranziehen","JM_NEU_SAVE_18_doubleblanks","JM_NEU_SAVE_19a_Euro_hin","JM_NEU_SAVE_19b_Euro_zurueck","JM_NEU_SAVE_20a_gfL","JM_NEU_SAVE_20b_gfL","JM_FUSS_FIXER"]
+[glyph]
+files = []
+[objects]
+files = []
