@@ -1,0 +1,1 @@
+﻿   var doc = app.activeDocument;       var spreads = doc.masterSpreads;       for(var i = spreads.length-1; i > 0; i --){try{        spreads.item(i).remove();}catch(err){$.writeln (err)  ;      }      }      spreads.add();    spreads.item(0).remove()
