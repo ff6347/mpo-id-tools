@@ -105,18 +105,18 @@ function prcs_getXPath(xpathChoice ,errorLog, count){
 }
 
 
-function set_label(obj,str){
-  try{
+// function set_label(obj,str){
+//   try{
 
-    obj.label = str;
+//     obj.label = str;
 
-  }catch(e){
-
-
-  }
+//   }catch(e){
 
 
-}
+//   }
+
+
+// }
 function prcs_getGroupDatav02(myDoc,myPage,count,itemCounter, placeAllBool, focusBool, normalBool, smallBool,itemBool,theItem,myErrorLog,myLogFile){
 
   this.name = "getGroupDatav02";
@@ -241,7 +241,7 @@ function prcs_getGroupData(myDoc,myPage,count,itemCounter, placeAllBool, focusBo
       // tets where on the page we are
       try{
       var myTestFrame = myPage.rectangles.add();
-      set_label(myTestFrame,"Delete Me");
+      // set_label(myTestFrame,"Delete Me");
       var myTestBounds = [];
       myTestBounds = prcs_myGetColumns(myDoc,myPage,itemCounter);
 
@@ -283,7 +283,7 @@ function prcs_getGroupData(myDoc,myPage,count,itemCounter, placeAllBool, focusBo
       for(var i = 0;i< myImgCounter; i++){
         var myImgFrame = myPage.rectangles.add();
         //set the Script label
-        set_label(myImgFrame, metaData.scrptLabel);
+        // set_label(myImgFrame, metaData.scrptLabel);
 
         myImgFrame.appliedObjectStyle = myDoc.objectStyles.item(0);
 
@@ -316,9 +316,11 @@ function prcs_getGroupData(myDoc,myPage,count,itemCounter, placeAllBool, focusBo
         // try{
             var myString =  myImages.xmlElements.item(i).xmlAttributes.item(1).value;
             // alert(myString);
-             // alert(File( myString.substring(8)).name);
+             alert(myString.substring(8)));
+            return;
             var info = new Info(id = 0,metaData.ArtNr ,"image");
-            info.set_imagedata(myString.substring(8), "");
+            var theimage = File(myString.substring(8));
+            info.set_imagedata( theimage.fsName, theimage.parent.fsName);
             myImgFrame.label = info.toSource();
             // myImgFrame.place( File( myString.substring(8)) );
             // myImgFrame.fit(FitOptions.CENTER_CONTENT);
@@ -358,7 +360,7 @@ function prcs_getGroupData(myDoc,myPage,count,itemCounter, placeAllBool, focusBo
       var myFrame = myPage.textFrames.add();
 
       //set the Script label
-      set_label(myFrame, metaData.scrptLabel);
+      // set_label(myFrame, metaData.scrptLabel);
 
       var myNullObjStyle  = myDoc.objectStyles.item(0);
       try{
@@ -386,7 +388,7 @@ function prcs_getGroupData(myDoc,myPage,count,itemCounter, placeAllBool, focusBo
       var myUlFrame = myPage.textFrames.add();
 
       //set the Script label
-      set_label(myUlFrame, metaData.scrptLabel);
+      // set_label(myUlFrame, metaData.scrptLabel);
 
       myUlFrame.appliedObjectStyle = myDoc.objectStyles.item(0);
       try{
@@ -412,7 +414,7 @@ function prcs_getGroupData(myDoc,myPage,count,itemCounter, placeAllBool, focusBo
 
       var myFocusText = myPage.textFrames.add();
       //set the Script label
-      set_label(myFocusText, "meta: grp-" +metaData.id + " scp-"+ metaData.scp );
+      // set_label(myFocusText, "meta: grp-" +metaData.id + " scp-"+ metaData.scp );
       try{
       myFocusText.applyObjectStyle(myNullObjStyle);
       }catch(e){
@@ -431,7 +433,7 @@ function prcs_getGroupData(myDoc,myPage,count,itemCounter, placeAllBool, focusBo
 
       var myGrText = myPage.textFrames.add();
       //set the Script label
-      set_label(myGrText,  "meta: grp-" +metaData.id + " scp-"+ metaData.scp );
+      // set_label(myGrText,  "meta: grp-" +metaData.id + " scp-"+ metaData.scp );
       myGrText.appliedObjectStyle = myDoc.objectStyles.item(0);
       try{
       myGrText.applyObjectStyle(myNullObjStyle);
@@ -457,11 +459,11 @@ function prcs_getGroupData(myDoc,myPage,count,itemCounter, placeAllBool, focusBo
       mySubGroup.push(myGrText);
 
       var subMetaGroup = myPage.groups.add(mySubGroup);
-      set_label(subMetaGroup, "meta: grp-" +metaData.id + " scp-"+ metaData.scp );
+      // set_label(subMetaGroup, "meta: grp-" +metaData.id + " scp-"+ metaData.scp );
       var objGroup = null;
       try{
       objGroup = myPage.groups.add(myGroup);
-      set_label(objGroup,metaData.scrptLabel);
+      // set_label(objGroup,metaData.scrptLabel);
       objGroup.sendToBack();
       }catch(e){
         errorLog = errorLog + e.toString() + "\n";
@@ -470,7 +472,7 @@ function prcs_getGroupData(myDoc,myPage,count,itemCounter, placeAllBool, focusBo
       finalGroup.push(subMetaGroup);
       if (objGroup !==  null ) {finalGroup.push(objGroup);}
       myPage.groups.add(finalGroup);
-      set_label(finalGroup,metaData.scrptLabel);
+      // set_label(finalGroup,metaData.scrptLabel);
 
 
       itemCounter++;
@@ -631,7 +633,7 @@ function prcs_findTables(myDoc,myNewPage,count,itemCounter){
     var Y2 =  Y1 + 50;
     var X2 =X1 + 123;
     var myFrame = myNewPage.textFrames.add();
-    set_label(myFrame,"table: grp-" + count );
+    // set_label(myFrame,"table: grp-" + count );
 //    myFrame.appliedObjectStyle = myDoc.objectStyles.item(0);
     var myNullObjStyle  = myDoc.objectStyles.item(0);
     try{
@@ -657,7 +659,7 @@ function prcs_findTables(myDoc,myNewPage,count,itemCounter){
 
 
     var myFocusText = myNewPage.textFrames.add();
-    set_label(myFocusText,"table: grp-"+count + " scp-focus");
+    // set_label(myFocusText,"table: grp-"+count + " scp-focus");
     myFocusText.geometricBounds  = [Y1,X1,Y2-20,X2-100];
     myFocusText.texts.everyItem().appliedCharacterStyle = myDoc.characterStyles.item("ERROR");
     myFocusText.paragraphs.everyItem().appliedParagraphStyle = myDoc.paragraphStyles.item("ERROR");
@@ -668,7 +670,7 @@ function prcs_findTables(myDoc,myNewPage,count,itemCounter){
     mySubGroup.push(myFocusText);
 
     var myGrText = myNewPage.textFrames.add();
-    set_label(myGrText,"table: grp-"+count);
+    // set_label(myGrText,"table: grp-"+count);
 
     myGrText.geometricBounds  = [Y1+1,X1+1,Y2-1-20,X2-1-100];
     myGrText.contents = count+". Gruppe"+"\n" + myElement.parent.markupTag.name.toString();
@@ -1013,7 +1015,7 @@ function prcs_findItemsNumber(myDoc){
 
 
   myPrice = FondItem[0].parent.textContainers[0].duplicate();
-  set_label(myPrice,myTempArtNrString + " price");
+  // set_label(myPrice,myTempArtNrString + " price");
   myPrice.geometricBounds = myGeoBounds;
   myPrice.paragraphs.everyItem().remove();
   var myPriceElement= myElement.xmlElements.item("preis").duplicate();
