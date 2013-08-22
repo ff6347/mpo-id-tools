@@ -278,26 +278,32 @@ function prcs_getGroupData(myDoc,myPage,count,itemCounter, placeAllBool, focusBo
 
 				}
 
+/**
+ * 2013_08_21 - 22_22_13
+ * This is where I have to look for the images placing. Error message is:
+ * E/A-Fehler: Der Ordner "/Volumes/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace/files/7918_hkaudio/j0108335_01_n_1f62106b.jpg" kann nicht gefunden werden.
+ */
 
-				try{
+				// try{
 						var myString =  myImages.xmlElements.item(i).xmlAttributes.item(1).value;
-
-						myImgFrame.place(File(prcs_checkOS(myString)));
+            // alert(myString);
+             alert(File( myString.substring(8)).name);
+						myImgFrame.place( File( myString.substring(8)) );
 						myImgFrame.fit(FitOptions.CENTER_CONTENT);
 						myImgFrame.fit(FitOptions.PROPORTIONALLY);
 						myGroup.push(myImgFrame);
 
-				}catch(e){
+				// }catch(e){
 //						alert("WARNING! \r THERE IS  AN IMAGE MISSING! " +e );
 
 
-						myImgFrame.fillColor = myDoc.swatches.item(2);
-						myImgFrame.fillTint = 42;
-						errorLog = errorLog + e.toString() + "\n";
-						myGroup.push(myImgFrame);
+						// myImgFrame.fillColor = myDoc.swatches.item(2);
+						// myImgFrame.fillTint = 42;
+						// errorLog = errorLog + e.toString() + "\n";
+						// myGroup.push(myImgFrame);
 
 
-					}
+					// }
 				var myImgObjStyle  = myDoc.objectStyles.item("BILD_schatten");
 
 				try{
