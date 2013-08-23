@@ -5,7 +5,7 @@ written by fabiantheblind 4 JM-2011
 // theNumbers.jsx
 // this script makes some tiny numbers for the JM Layout
 // it needs the font JM Bertram
-// Copyright (C) 2011 Fabian "fabiantheblind" Morón Zirfas
+// Copyright (C) 2011 Fabian "fabiantheblind" Mor?n Zirfas
 // http://www.the-moron.net
 // info [at] the - moron . net
 
@@ -32,13 +32,13 @@ function main() {
 		alert("No no no, you have no document.\nMaybe you should drink some coffee");
 		return;
 		}
-			
+
 	// var myList;
 	// var myPageName;
 	// var myPage ;
 	var obj = new Object;
-	obj.strings =  ["1","2","3","4","5","6","7","8","9","0","§","q","w","e","r","t","z","u","i","o","p","a","s","d","f","g","h","j","k","l"];
-	
+	obj.strings =  ["1","2","3","4","5","6","7","8","9","0","\u00DF","q","w","e","r","t","z","u","i","o","p","a","s","d","f","g","h","j","k","l"];
+
 	obj.pgnames = doc.pages.everyItem().name;
 	obj.pgn = "";
 	myUI( doc , obj.pgn ,obj);
@@ -51,14 +51,14 @@ function main() {
 function makeNumbers(myDoc,myPage,theNumber,obj){
 	var styleErrorWarning = false;
 	var fontErrorWarning = false;
-	
+
 		var mySuperGroup = new Array;
 
 	var myRY1 = 10+ 0.214;
 	var myRX1 = 10 + 2.586 ;
-	var myRY2 = myRY1 + 2.5;
+	var myRY2 = myRY1 + 2.9;
 	var myRX2 = myRX1 + 2.5;
-	
+
 	var myTFY1 = 10;
 	var myTFX1 = 10;
 	var myTFY2 = myTFY1 + 4.515;
@@ -67,25 +67,25 @@ function makeNumbers(myDoc,myPage,theNumber,obj){
 	var theRow;
 	var theItemCounter = 0;
 
-	
+
 	for(var i = 0; i < theNumber + 1; i++ ){
-		
+
 		if(theItemCounter < 10){
 			theRow = 0;
-			
+
 		}else if(theItemCounter > 9 && theItemCounter < 20){
-			theRow = 5;	
+			theRow = 5;
 		}else {
 			theRow = 10;
-			
+
 		}
-		
+
 		if(theItemCounter%10 == 0){
 			theValue = 5;
-			
+
 		}
-		
-		
+
+
 			var myGroup = new Array;
 		var myRect =  myPage.rectangles.add();
 	//	set_label(myRect,"Num: "+ theNumber + " Key: " + obj.strings[i]);
@@ -93,23 +93,22 @@ function makeNumbers(myDoc,myPage,theNumber,obj){
 			with(myRect){
 				geometricBounds = [myRY1 + theRow , myRX1 + theValue, myRY2 + theRow ,myRX2 + theValue];
 				fillColor = myDoc.swatches.item(2);
-				
+
 			}
-			
-			
+
+
 			myGroup.push(myRect);
 
 			var myTF =  myPage.textFrames.add();
 		//set_label(myTF,"Num: "+ i + " Key: " + obj.strings[i]);
 			myTF.applyObjectStyle( myDoc.objectStyles.item(0));
-			
 			with(myTF){
 				geometricBounds = [myTFY1+ theRow ,myTFX1 + theValue, myTFY2 + theRow ,myTFX2 + theValue];
 				contents = obj.strings[i];
 				try {
-				paragraphs.everyItem().appliedParagraphStyle = myDoc.paragraphStyles.item("LAUFNUMMER_am_Bild"); 
+				paragraphs.everyItem().appliedParagraphStyle = myDoc.paragraphStyles.item("LAUFNUMMER_am_Bild");
 				}catch(e){
-					
+
 				if(styleErrorWarning == false){
 					alert("the Paragraphstyle \"LAUFNUMMER_am_Bild\" doesnot exist.\nIwill try to build the numbers by hand");
 					styleErrorWarning = true;
@@ -118,35 +117,38 @@ function makeNumbers(myDoc,myPage,theNumber,obj){
 					paragraphs.everyItem().justification = Justification.CENTER_ALIGN;
 					paragraphs.everyItem().fillColor = myDoc.swatches.item(1);
 				}
-				
+
 				try{
-					
+
 					paragraphs.everyItem().appliedFont = "JM Bertram Symbol";
-					
-				}catch(e){
-					
-					if(fontErrorWarning == false){
-					alert("Sorry the Font \"JM Bertram Symbol\" does not exist. Sry");
-					fontErrorWarning = true;
-					}
-				}
-				
-				theValue = theValue + 5;
-			}
+          myTF.characters.everyItem().applyCharacterStyle( myDoc.characterStyles.item(0));
+          paragraphs.everyItem().clearOverrides(OverrideType.ALL);
+
+        }catch(e){
+
+          if(fontErrorWarning == false){
+          alert("Sorry the Font \"JM Bertram Symbol\" does not exist. Sry");
+          fontErrorWarning = true;
+          }
+        }
+
+        theValue = theValue + 5;
+      }
+
 					myGroup.push(myTF);
 			var myMetaGroup = myPage.groups.add(myGroup);
 			// if you only make one numnber there is no super group
 			try{ mySuperGroup.push(myMetaGroup); }catch(e){}
-			
+
 	theItemCounter++;
 	}
-	
+
 	;
 	try{myPage.groups.add(mySuperGroup);}catch(e){}
 
 
-	
-	
+
+
 }
 
 // this is the dialoge
@@ -158,15 +160,15 @@ function myUI(myDoc,myPageName,obj){
 	with(myDialog){
 		//Add a dialog column.
 		with(dialogColumns.add()){
-			//Create a row 
+			//Create a row
 			with(dialogRows.add()){
-				var txtNum = staticTexts.add({staticLabel:"Numbers--> ",minWidth:100});				
+				var txtNum = staticTexts.add({staticLabel:"Numbers--> ",minWidth:100});
 				var myNumberDropdown = dropdowns.add({
 					stringList: ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16",
 					"17","18","19","20","21","22","23","24","25","26","27","28","29","30"], selectedIndex:0,minWidth:75
 					});
 				}
-				
+
 				// another row
 				with(dialogRows.add()){
 				var txtPg = staticTexts.add({staticLabel:"2 Page--> ",minWidth:100});
@@ -177,7 +179,7 @@ function myUI(myDoc,myPageName,obj){
 		with(dialogColumns.add()){
 		var gutter = staticTexts.add({staticLabel:"  ",minWidth:25});
 	}
-	
+
 	//Display the dialog box.
 	if(myDialog.show() == true){
 
@@ -186,9 +188,9 @@ function myUI(myDoc,myPageName,obj){
 
 		var mySelectedNumber  = myNumberDropdown.selectedIndex;
 		myDialog.destroy();
-		
+
  		var p = myDoc.pages.item(myPageName);
-		
+
 		// call the numbers function
 		makeNumbers(myDoc , p ,mySelectedNumber,obj);
 
@@ -198,18 +200,18 @@ function myUI(myDoc,myPageName,obj){
 
  }
 
-	}	  
+	}
 }
 
 function set_label(obj,str){
 	try{
-		
+
 		obj.label = str;
-		
+
 	}catch(e){
-		
-		
+
+
 	}
-	
-	
+
+
 }
