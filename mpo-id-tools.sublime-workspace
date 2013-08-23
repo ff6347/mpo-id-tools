@@ -4,6 +4,142 @@
 		"selected_items":
 		[
 			[
+				"val",
+				"value"
+			],
+			[
+				"xml",
+				"xmlexist"
+			],
+			[
+				"on",
+				"onClick	onClick function(){};"
+			],
+			[
+				"xmlEx",
+				"xmlExistChkBx"
+			],
+			[
+				"mo",
+				"mode"
+			],
+			[
+				"can",
+				"canCancel:true"
+			],
+			[
+				"mode",
+				"modeDropdown"
+			],
+			[
+				"mod",
+				"mode_dropdownid"
+			],
+			[
+				"xmle",
+				"xmlexist_id"
+			],
+			[
+				"dia",
+				"dialog"
+			],
+			[
+				"sho",
+				"show"
+			],
+			[
+				"new",
+				"newsimpleDialog"
+			],
+			[
+				"sim",
+				"simpleDialog"
+			],
+			[
+				"bui",
+				"build_simple_dialog"
+			],
+			[
+				"xmlre",
+				"xmlremove_id"
+			],
+			[
+				"xml_",
+				"xml_exist_id"
+			],
+			[
+				"ad",
+				"adiag_column1"
+			],
+			[
+				"doc",
+				"docpath"
+			],
+			[
+				"file",
+				"filePath"
+			],
+			[
+				"check",
+				"checkOS"
+			],
+			[
+				"ale",
+				"alert	alert with text"
+			],
+			[
+				"Re",
+				"RegExp"
+			],
+			[
+				"aler",
+				"alert"
+			],
+			[
+				"chec",
+				"check_guid"
+			],
+			[
+				"Sy",
+				"SyntaxError"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"lab",
+				"label_str"
+			],
+			[
+				"item",
+				"item_info"
+			],
+			[
+				"js",
+				"jsondumb"
+			],
+			[
+				"la",
+				"label_str"
+			],
+			[
+				"it",
+				"item_info"
+			],
+			[
+				"process",
+				"processXMLv2"
+			],
+			[
+				"cmt",
+				"cmt	comment line with option"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
 				"scri",
 				"script_file_folder"
 			],
@@ -104,16 +240,8 @@
 				"errNoQuery"
 			],
 			[
-				"dia",
-				"dialogRows"
-			],
-			[
 				"row",
 				"row1"
-			],
-			[
-				"item",
-				"itemSelector"
 			],
 			[
 				"add",
@@ -204,10 +332,6 @@
 				"PadDigits"
 			],
 			[
-				"file",
-				"filepath"
-			],
-			[
 				"ren",
 				"rename"
 			],
@@ -244,10 +368,6 @@
 				"read_db"
 			],
 			[
-				"js",
-				"json2"
-			],
-			[
 				"win",
 				"window"
 			],
@@ -270,10 +390,6 @@
 			[
 				"get",
 				"get_setting_int"
-			],
-			[
-				"on",
-				"onChanging"
 			],
 			[
 				"tex",
@@ -306,10 +422,6 @@
 			[
 				"se",
 				"seconds"
-			],
-			[
-				"cmt",
-				"cmt line	comment line"
 			],
 			[
 				"prese",
@@ -402,123 +514,35 @@
 			[
 				"def",
 				"default"
-			],
-			[
-				"has",
-				"hasOwnProperty"
-			],
-			[
-				"loc",
-				"locdata"
-			],
-			[
-				"secti",
-				"section"
-			],
-			[
-				"set_",
-				"set_setting_number"
-			],
-			[
-				"licen",
-				"licenseCheckResult"
-			],
-			[
-				"lic",
-				"licenseCheckResult"
-			],
-			[
-				"li",
-				"lic"
-			],
-			[
-				"Sett",
-				"SettingsControl"
-			],
-			[
-				"toc",
-				"toc-comment	this is a layout for comments in scirpts"
-			],
-			[
-				"Mettle",
-				"MettleMoGraphAE"
-			],
-			[
-				"ale",
-				"alert"
-			],
-			[
-				"fil",
-				"filepath"
-			],
-			[
-				"fi",
-				"filepath"
-			],
-			[
-				"fu",
-				"fullpath"
-			],
-			[
-				"ex",
-				"executeScript"
-			],
-			[
-				"wri",
-				"write_file"
-			],
-			[
-				"ae",
-				"ae_folder_path"
-			],
-			[
-				"sc",
-				"scripts"
-			],
-			[
-				"me",
-				"meta_info"
-			],
-			[
-				"val",
-				"values"
-			],
-			[
-				"meta",
-				"metadata"
-			],
-			[
-				"titl",
-				"title_factor"
-			],
-			[
-				"sub",
-				"subheadcolor"
-			],
-			[
-				"ti",
-				"titlecolor"
-			],
-			[
-				"line",
-				"line-height"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"bg",
-				"bgcolor"
-			],
-			[
-				"bo",
-				"body"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "MPO-Importer.jsx",
+			"settings":
+			{
+				"buffer_size": 60226,
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/Guides/screencast-grafiker.md",
+			"settings":
+			{
+				"buffer_size": 861,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "The-Numbers.jsx",
+			"settings":
+			{
+				"buffer_size": 5575,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -526,6 +550,34 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"lin",
+				"Line Ending: Unix"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"mar",
+				"Marked"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"swa",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"case",
+				"Convert Case: Upper Case"
+			],
+			[
+				"make",
+				"SnippetMaker: Make Snippet"
+			],
 			[
 				"encl",
 				"Snippet: enclose in anonymous function"
@@ -563,20 +615,12 @@
 				"BracketHighlighter: Swap Quotes"
 			],
 			[
-				"swa",
-				"BracketHighlighter: Swap Quotes"
-			],
-			[
 				"entie",
 				"StringEncode: HTML Entitize"
 			],
 			[
 				"insta",
 				"Package Control: Install Package"
-			],
-			[
-				"mark",
-				"Set Syntax: Markdown"
 			],
 			[
 				"shell",
@@ -605,10 +649,6 @@
 			[
 				"previe",
 				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"mar",
-				"Marked"
 			],
 			[
 				"in",
@@ -793,10 +833,6 @@
 			[
 				"linee",
 				"Line Ending: Unix"
-			],
-			[
-				"make",
-				"Snippet: Snippet Maker snippet encloses selection into snippet variable"
 			],
 			[
 				"line",
@@ -1025,21 +1061,9 @@
 			[
 				"gollum",
 				"Snippet: enclose for gollum / pygments syntax highlite js"
-			],
-			[
-				"high",
-				"Snippet: ftb jekyll enclose in highlite js"
-			],
-			[
-				"highli",
-				"Snippet: ftb jekyll enclose in highlite js"
-			],
-			[
-				"en",
-				"StringEncode: HTML Entitize"
 			]
 		],
-		"width": 1018.0
+		"width": 647.0
 	},
 	"console":
 	{
@@ -1056,13 +1080,22 @@
 	},
 	"file_history":
 	[
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace/justpa_s210_lspaketeampportable_komplett_08230930.xml",
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/Guides/screencasts-grafik.html",
+		"/Users/fabiantheblind/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css",
+		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/batch-find-and-replace.toml",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/MPO-Importer.jsx",
+		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace/justdj_s244_4deckdjcontroller_teil_08221933.xml",
+		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/User/ftb-sublime-package/comment line.sublime-snippet",
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace/justguitars_s20_bundlesdeals_komplett_08222245.xml",
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace/log.txt",
+		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/User/comment-line.sublime-snippet",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/mpo-id-tools/meta/Info.jsx",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/mpo-id-tools/meta/processXML_v02.jsx",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/mpo-id-tools/meta/setupStyles.jsx",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/mpo-id-tools/MPO-Importer.jsx",
 		"/Applications/Adobe InDesign CS6/Scripts/Scripts Panel/mpo-id-tools/meta/glue code.jsx",
-		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace/log.txt",
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace/justpa_s206_aktivepalautsprecher_komplett_08212237.json",
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace/justpa_s206_aktivepalautsprecher_komplett_08212208.xml",
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/Guides/screencast-grafiker.md",
@@ -1118,9 +1151,7 @@
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/code/mpo-id-tools/.git/config",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/update.command",
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/code/install-mpo-id-tools.command",
-		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/batch-find-and-replace.toml",
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-indesign-docs/DokumentenUebersicht.csv",
-		"/Users/fabiantheblind/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css",
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/Guides/scripts/mpo.tamper.js",
 		"/Users/fabiantheblind/Documents/_projects/AfterEffects-Scripting/Locations/Locations.sublime-project",
 		"/Users/fabiantheblind/Documents/_projects/AfterEffects-Scripting/Locations/Locations-master/get-effect-example.jsx",
@@ -1163,7 +1194,6 @@
 		"/Volumes/data/_downloads/juststudio_s272_modulsysteme_komplett_08151613.json",
 		"/Volumes/data/_downloads/juststudio_s272_modulsysteme_komplett_08151612.xml",
 		"/Volumes/data/_downloads/justkeys_s155_stagepianos_komplett_08151612 (1).xml",
-		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/fabiantheblind/Documents/Dropbox/ankelohe-web/ankelohe-webmaster.txt",
 		"/Users/fabiantheblind/Desktop/wordpress/wp-config.php",
 		"/Users/fabiantheblind/Library/Caches/Cleanup At Startup/Transmit/5F781DA9-F177-4888-81BD-3835782A1204/index.html",
@@ -1177,13 +1207,7 @@
 		"/Users/fabiantheblind/Documents/_projects/gut-ankelohe/wordpress/wp-content/themes/ankelohe/page-ankelohe-guest.php",
 		"/Users/fabiantheblind/Documents/Dropbox/ankelohe-web/hallofabian.txt",
 		"/Volumes/data/_archive/_fhp/old/moreTimeForDesign/MT4D/04szenarioimagematrix.md",
-		"/Users/fabiantheblind/Documents/_projects/gut-ankelohe/wordpress/wp-content/themes/ankelohe/ROADMAP.txt",
-		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
-		"/Users/fabiantheblind/Documents/_projects/gut-ankelohe/wordpress/wp-content/themes/twentythirteen/comments.php",
-		"/Users/fabiantheblind/Documents/Web/bed-and-breakfast/Website/index.html",
-		"/Users/fabiantheblind/Documents/_projects/gut-ankelohe/wordpress/wp-content/themes/ankelohe/page-ankelohe-excerpt.php",
-		"/Users/fabiantheblind/Documents/_projects/AfterEffects-Scripting/Parallaxo/el-parallaxo/el-parallaxo.jsx",
-		"/Users/fabiantheblind/Documents/_projects/AfterEffects-Scripting/grand-central/Script/Grand Central - Demos.jsx"
+		"/Users/fabiantheblind/Documents/_projects/gut-ankelohe/wordpress/wp-content/themes/ankelohe/ROADMAP.txt"
 	],
 	"find":
 	{
@@ -1216,6 +1240,38 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Was macht den groß",
+			"place",
+			"DEBUG",
+			": ",
+			"DEBUG",
+			"prcs_makeImgElement",
+			"prcs_findGroupAttributeNone",
+			"count.toString()",
+			"=",
+			";",
+			"in_mpo_data",
+			"inm_po_data",
+			"obj.",
+			"obj",
+			"simpleDialog",
+			"myList",
+			"simple",
+			"allSelector",
+			"prcs_getGroupData",
+			"prcsXMLv02_placeData",
+			"obj.mode",
+			"process_images",
+			"href=\"file:///",
+			"prcs_checkOS",
+			"insertL",
+			"\n          if",
+			"jsondumb",
+			"prcs_getGroupDatav02",
+			"prcs_getGroupData",
+			"prcs_writeData",
+			"write",
+			"errorLog",
 			"label",
 			"set_label",
 			"set_la",
@@ -1311,39 +1367,7 @@
 			"new Object()",
 			"##",
 			"###",
-			"-	",
-			"-",
-			"motrton-two",
-			"options",
-			"excludepages",
-			"motrton-two",
-			"+",
-			"   ",
-			"backg",
-			"font-family",
-			"my_custom_init",
-			"get_template_directory_uri()",
-			"my_styles",
-			"call_main_js",
-			"cache_folder",
-			"\\n",
-			"\");",
-			"(\"",
-			"\\\"",
-			"    //",
-			"//",
-			"received_data",
-			"render",
-			"myRQItem",
-			"        ",
-			"my_JSON_object",
-			"ae_folder_path",
-			"set_ae_control_path",
-			"}\n",
-			"execute_command",
-			"id",
-			"data.id",
-			"read_cmd_list"
+			"-	"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1489,8 +1513,798 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "MPO-Importer.jsx",
+					"settings":
+					{
+						"buffer_size": 60226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2067,
+								2067
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"ExtendScript": "JavaScript"
+							},
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8 with BOM",
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"ExtendScript": "JavaScript"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Sublime-ExtendScript/ExtendScript.tmlanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 385.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/Guides/screencast-grafiker.md",
+					"settings":
+					{
+						"buffer_size": 861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"ExtendScript": "JavaScript"
+							},
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"ExtendScript": "JavaScript"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "The-Numbers.jsx",
+					"settings":
+					{
+						"buffer_size": 5575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1145,
+								1145
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"ExtendScript": "JavaScript"
+							},
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"encoding_helper_confidence": 0.686539758083,
+							"encoding_helper_encoding": "Unknown",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"ExtendScript": "JavaScript"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Sublime-ExtendScript/ExtendScript.tmlanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 423.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
