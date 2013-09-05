@@ -66,17 +66,10 @@ function main() {
     myItemsList[i] = myItemsListElement.xmlElements.item(i).markupTag.name;
   }
   }catch(e){
-
   if(obj.WARNINGS)  alert("you have no xml structure.\nuse the MPO_Importer");
     return;
-
   }
-
-
   myUI(d, myPage,myPageName, myList,myItemsList);
-
-
-
 }
 
 
@@ -153,7 +146,7 @@ function placeImages(theItem, myPage, d){
   var myX1 = myTempBounds[1];
   var myY2 = myTempBounds[2];
   var myX2 = myTempBounds[3];
-  if(obj.DEBUG) alert(myImages.xmlElements.length);
+  if(obj.DEBUG) alert("myImages length: " + myImages.xmlElements.length );
 
   if(!myImages.xmlElements.length){
 
@@ -174,7 +167,8 @@ function placeImages(theItem, myPage, d){
             myImgFrame.geometricBounds = [myY1+(i*10),myX1,myY2+(i*10),myX2];
 
             var myString =  myImages.xmlElements.item(i).xmlAttributes.item(1).value;
-            myImgFrame.place(File(checkOS(myString)));
+            if(obj.DEBUG) alert("the path " + myString);
+            myImgFrame.place( File( d.filePath + "/" + myString ));
             myImgFrame.fit(FitOptions.CENTER_CONTENT);
             myImgFrame.fit(FitOptions.PROPORTIONALLY);
             myImgFrame.fit(FitOptions.FRAME_TO_CONTENT);
@@ -216,12 +210,12 @@ function placeImages(theItem, myPage, d){
   myTextFrame.properties = {
     geometricBounds : [myY1,myX1,myY2,myX2]
   };
-    if (myTextFrame.myImages.xmlElements.length === 0) {
+    if (myImages.xmlElements.length === 0) {
       myTextFrame.contents = theItem + " has no images";
     }else {
       myTextFrame.contents = theItem;
     }
-    applyObjectStyle(myNullObjStyle);
+    myTextFrame.applyObjectStyle(myNullObjStyle);
 
 
 
@@ -351,7 +345,7 @@ function myUI(d, myPage,myPageName, myList,myItemsList){
     }
 
     var preTheItem = myItemsList[myArtikelDropdown.selectedIndex];
-    if(obj.DEBUG) alert(preTheItem);
+    if(obj.DEBUG) alert("Selected Item from dropdown" + preTheItem);
     var theItem = preTheItem.substring(4);
 
     myDialog.destroy();
