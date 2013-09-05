@@ -23,6 +23,7 @@ Installation Skripte
 InDesign beinhaltet zwei Bedienfelder für Skripten: das
 Skriptenbedienfeld und das Skriptbezeichnungsbedienfeld.
 
+
 Im Skriptenbedienfeld können Sie Skripten ausführen, ohne InDesign zu
 verlassen. Im Skriptenbedienfeld werden die Skripten angezeigt, die sich
 in den Skripten-Ordnern des InDesign-Anwendungsordners und in den
