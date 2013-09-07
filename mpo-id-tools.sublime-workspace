@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"la",
+				"label"
+			],
+			[
+				"rect",
+				"rectangle"
+			],
+			[
 				"lab",
 				"label"
 			],
@@ -154,10 +162,6 @@
 			[
 				"js",
 				"jsondumb"
-			],
-			[
-				"la",
-				"label_str"
 			],
 			[
 				"it",
@@ -510,10 +514,6 @@
 			[
 				"test",
 				"test_patch"
-			],
-			[
-				"some",
-				"something"
 			]
 		]
 	},
@@ -529,6 +529,10 @@
 			[
 				"js",
 				"Javascript Beautify"
+			],
+			[
+				"ter",
+				"Open in terminal"
 			],
 			[
 				"jsb",
@@ -677,10 +681,6 @@
 			[
 				"Package Control: ",
 				"Package Control: Enable Package"
-			],
-			[
-				"ter",
-				"Open in terminal"
 			],
 			[
 				"space",
@@ -1056,12 +1056,14 @@
 	},
 	"file_history":
 	[
+		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/Replace-Dummies.jsx",
+		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/MPO-Importer.jsx",
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-test/JustDJ_S248_DigitaleVinylsysteme_komplett_09071233.xml",
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-test/JustDJ_S248NOIMAGE.xml",
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/Guides/screencast-grafiker.md",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/The-Numbers.jsx",
 		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/js-beautify-sublime/Default (OSX).sublime-keymap",
-		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/MPO-Importer.jsx",
 		"/Users/fabiantheblind/Documents/_projects/AfterEffects-Scripting/Monoline Text/hershey-monoline-text-dev/Monoline Text.jsx",
-		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/Replace-Dummies.jsx",
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-test/JustDJ_S247_MISSINGIMG.xml",
 		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/User/JavascriptBeautify.sublime-settings",
 		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/js-beautify-sublime/JavascriptBeautify.sublime-settings",
@@ -1181,9 +1183,7 @@
 		"/Users/fabiantheblind/Documents/Dropbox/ankelohe-web/ankelohe-webmaster.txt",
 		"/Users/fabiantheblind/Desktop/wordpress/wp-config.php",
 		"/Users/fabiantheblind/Library/Caches/Cleanup At Startup/Transmit/5F781DA9-F177-4888-81BD-3835782A1204/index.html",
-		"/Users/fabiantheblind/Documents/_projects/gut-ankelohe/wordpress/wp-content/plugins/easy-image-gallery/includes/scripts.php",
-		"/Users/fabiantheblind/Documents/_projects/gut-ankelohe/wordpress/wp-content/plugins/easy-image-gallery/easy-image-gallery.php",
-		"/Users/fabiantheblind/Documents/_projects/gut-ankelohe/wordpress/wp-content/themes/motrton-two/functions.php"
+		"/Users/fabiantheblind/Documents/_projects/gut-ankelohe/wordpress/wp-content/plugins/easy-image-gallery/includes/scripts.php"
 	],
 	"find":
 	{
@@ -1216,6 +1216,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bild",
 			"WARNINGS",
 			"Progress",
 			"progress",
@@ -1342,8 +1343,7 @@
 			"prcs_getXPath",
 			"count",
 			"&quote;",
-			"&QUOTE;",
-			"&quote;"
+			"&QUOTE;"
 		],
 		"highlight": false,
 		"in_selection": false,
