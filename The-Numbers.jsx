@@ -1,3 +1,4 @@
+(function(thisObj){
 /*
 written by fabiantheblind 4 JM-2011
 */
@@ -87,7 +88,7 @@ function makeNumbers(myDoc, myPage, theNumber, obj) {
 
     }
 
-    if (theItemCounter % 10 == 0) {
+    if (theItemCounter % 10 === 0) {
       theValue = 5;
 
     }
@@ -95,15 +96,14 @@ function makeNumbers(myDoc, myPage, theNumber, obj) {
 
     var myGroup = [];
     var myRect = myPage.rectangles.add();
-    //	set_label(myRect,"Num: "+ theNumber + " Key: " + obj.strings[i]);
+    //  set_label(myRect,"Num: "+ theNumber + " Key: " + obj.strings[i]);
     myRect.applyObjectStyle(myDoc.objectStyles.item(0));
-    with(myRect) {
-      geometricBounds = [myRY1 + theRow, myRX1 + theValue, myRY2 + theRow,
+   myRect.properties =  {
+      geometricBounds : [myRY1 + theRow, myRX1 + theValue, myRY2 + theRow,
         myRX2 + theValue
-      ];
-      fillColor = myDoc.swatches.item(2);
-
-    }
+      ],
+      fillColor : myDoc.swatches.item(2)
+    };
 
 
     myGroup.push(myRect);
@@ -121,7 +121,7 @@ function makeNumbers(myDoc, myPage, theNumber, obj) {
           "LAUFNUMMER_am_Bild");
       } catch (e) {
 
-        if (styleErrorWarning == false) {
+        if (styleErrorWarning === false) {
           alert(
             "the Paragraphstyle \"LAUFNUMMER_am_Bild\" doesnot exist.\nIwill try to build the numbers by hand"
           );
@@ -141,14 +141,14 @@ function makeNumbers(myDoc, myPage, theNumber, obj) {
 
       } catch (e) {
 
-        if (fontErrorWarning == false) {
+        if (fontErrorWarning === false) {
           alert("Sorry the Font \"JM Bertram Symbol\" does not exist. Sry");
           fontErrorWarning = true;
         }
       }
 
       theValue = theValue + 5;
-    }
+    } // close damn with
 
     myGroup.push(myTF);
     var myMetaGroup = myPage.groups.add(myGroup);
@@ -160,7 +160,7 @@ function makeNumbers(myDoc, myPage, theNumber, obj) {
     theItemCounter++;
   }
 
-  ;
+
   try {
     myPage.groups.add(mySuperGroup);
   } catch (e) {}
@@ -175,6 +175,7 @@ function makeNumbers(myDoc, myPage, theNumber, obj) {
 // InDesign dialogs are prety fast
 
 function myUI(myDoc, myPageName, obj) {
+  var myNumberDropdown, myPageDropdown;
   var myDialog = app.dialogs.add({
     name: "Make The Numbers",
     canCancel: true
@@ -188,7 +189,7 @@ function myUI(myDoc, myPageName, obj) {
           staticLabel: "Numbers--> ",
           minWidth: 100
         });
-        var myNumberDropdown = dropdowns.add({
+        myNumberDropdown = dropdowns.add({
           stringList: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
             "11", "12", "13", "14", "15", "16",
             "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27",
@@ -205,7 +206,7 @@ function myUI(myDoc, myPageName, obj) {
           staticLabel: "2 Page--> ",
           minWidth: 100
         });
-        var myPageDropdown = dropdowns.add({
+        myPageDropdown = dropdowns.add({
           stringList: myDoc.pages.everyItem().name,
           selectedIndex: 0,
           minWidth: 75
@@ -221,10 +222,10 @@ function myUI(myDoc, myPageName, obj) {
     }
 
     //Display the dialog box.
-    if (myDialog.show() == true) {
+    if (myDialog.show() === true) {
 
       myPageName = obj.pgnames[myPageDropdown.selectedIndex];
-      //	myPageName =  myList[myPageDropdown.selectedIndex];
+      //  myPageName =  myList[myPageDropdown.selectedIndex];
 
       var mySelectedNumber = myNumberDropdown.selectedIndex;
       myDialog.destroy();
@@ -254,5 +255,25 @@ function set_label(obj, str) {
 
   }
 
-
+/**
+ * Taken from ScriptUI by Peter Kahrel
+ * @usage
+ * var progress_win = new Window ("palette");
+ *
+ * var progress = progress_bar(progress_win, 100, 'my Progress');
+ *
+ *       progress.value = i++;
+ *       progress.parent.close();// important close it!!
+ *
+ * @param  {Palette} w    the palette the progress is shown on
+ * @param  {Number} stop [description]
+ * @return {Progressbar}      [description]
+ */
+function progress_bar (w, stop, labeltext) {
+var txt = w.add('statictext',undefined,labeltext);
+var pbar = w.add ("progressbar", undefined, 1, stop); pbar.preferredSize = [300,20];
+w.show ();
+return pbar;
 }
+
+}})(this);
