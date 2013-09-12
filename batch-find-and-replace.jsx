@@ -64,7 +64,7 @@ var bfnr = {
   'toml':null,
   'settings':{
   'do_text':false,
-  'do_grep':false,
+  'do_grep':true,
   'do_glyph':false,
   'do_object':false,
   'do_all_docs':true
@@ -100,7 +100,7 @@ alert("Sorry processing several docs is disabled for the moment until an issue i
     run_processor(doc, bfnr);
   }
 }
-
+alert("Done");
 } // end of run function
 /**
  * [run_processor description]

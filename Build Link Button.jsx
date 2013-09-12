@@ -31,7 +31,7 @@ var content = "";
 
 var obj = {};
 
-obj.DEBUG = true;
+obj.DEBUG = false;
 obj.WARNINGS = true;
 main();
 function main() {
