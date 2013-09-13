@@ -166,7 +166,7 @@ function makeNumbers(myDoc, myPage, theNumber, obj) {
   } catch (e) {}
 
 
-
+alert("Created " + String(theNumber + 1 )+ " numbers on page " + myPage.name);
 
 }
 

@@ -523,9 +523,29 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 167.0,
 		"selected_items":
 		[
+			[
+				"csv",
+				"Set Syntax: CSV"
+			],
+			[
+				"CSV",
+				"Set Syntax: CSV"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"gi",
+				"Gist: Create Public Gist"
+			],
+			[
+				"an",
+				"Snippet: enclose in anonymous function"
+			],
 			[
 				"js",
 				"Javascript Beautify"
@@ -657,10 +677,6 @@
 			[
 				"spaces",
 				"Indentation: Convert to Spaces"
-			],
-			[
-				"an",
-				"Snippet: enclose in anonymous function"
 			],
 			[
 				"instal",
@@ -987,10 +1003,6 @@
 				"Package Control: List Packages"
 			],
 			[
-				"gist",
-				"Gist: Insert Gist"
-			],
-			[
 				"upda",
 				"Package Control: Upgrade Package"
 			],
@@ -1025,21 +1037,9 @@
 			[
 				"css",
 				"Set Syntax: CSS"
-			],
-			[
-				"gollu",
-				"Snippet: enclose for gollum / pygments syntax highlite js"
-			],
-			[
-				"shel",
-				"Set Syntax: Shell Script (Bash)"
-			],
-			[
-				"tab",
-				"Indentation: Convert to Tabs"
 			]
 		],
-		"width": 881.0
+		"width": 647.0
 	},
 	"console":
 	{
@@ -1056,6 +1056,19 @@
 	},
 	"file_history":
 	[
+		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/CSV/README.md",
+		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/CSV/README.",
+		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/CSV/.gitignore",
+		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/CSV/.hgignore",
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-pa-dj/pa/JustPA_S203_AktivePALautsprecher_komplett_09131044.xml",
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-pa-dj/workfiles/s203_opera-tabelle_JM2013.csv",
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-pa-dj/workfiles/s_204_JM2013_HDSerie.csv",
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-pa-dj/pa/JustPA_S202_AktivePALautsprecher_komplett_09121712.xml",
+		"/Users/fabiantheblind/Desktop/stackoverflow/pdf-to-ai.jsx",
+		"/Users/fabiantheblind/Desktop/gh-issues-import.py",
+		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/User/Gist.sublime-settings",
+		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/batch-find-and-replace.jsx",
+		"/Volumes/data/_downloads/Workflows-master/Open in Sublime/proj.py",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/Replace-Dummies.jsx",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/MPO-Importer.jsx",
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-test/JustDJ_S248_DigitaleVinylsysteme_komplett_09071233.xml",
@@ -1153,7 +1166,6 @@
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpolauncherJSRes/Find and Change.jsx",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/copy_and_overwrite.sh",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/batch-find-and-replace/release/batch-find-and-replace.jsx",
-		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/batch-find-and-replace.jsx",
 		"/Users/fabiantheblind/Documents/Code/shell/shell-script-fiddle/loop.sh",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/progress.sh",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/sed_remote.sh",
@@ -1171,19 +1183,7 @@
 		"/Users/fabiantheblind/Desktop/ID_find_groups_Stackoverflow.jsx",
 		"/Users/fabiantheblind/Documents/Code/extendscript/extendscript.wiki/_Sidebar.md",
 		"/Users/fabiantheblind/Documents/Code/extendscript/extendscript.wiki/Groups.md",
-		"/Users/fabiantheblind/Documents/Code/extendscript/extendscript.wiki/groups.md",
-		"/Users/fabiantheblind/Desktop/nindoo-servere.txt",
-		"/Volumes/data/_downloads/justkeys_s155_stagepianos_komplett_08151612.xml",
-		"/Volumes/data/_downloads/justkeys_s155_stagepianos_komplett_08151614.xml",
-		"/Volumes/data/_downloads/juststudio_s272_modulsysteme_komplett_08151613.xml",
-		"/Volumes/data/_downloads/juststudio_s272_modulsysteme_komplett_08151613 (1).json",
-		"/Volumes/data/_downloads/juststudio_s272_modulsysteme_komplett_08151613.json",
-		"/Volumes/data/_downloads/juststudio_s272_modulsysteme_komplett_08151612.xml",
-		"/Volumes/data/_downloads/justkeys_s155_stagepianos_komplett_08151612 (1).xml",
-		"/Users/fabiantheblind/Documents/Dropbox/ankelohe-web/ankelohe-webmaster.txt",
-		"/Users/fabiantheblind/Desktop/wordpress/wp-config.php",
-		"/Users/fabiantheblind/Library/Caches/Cleanup At Startup/Transmit/5F781DA9-F177-4888-81BD-3835782A1204/index.html",
-		"/Users/fabiantheblind/Documents/_projects/gut-ankelohe/wordpress/wp-content/plugins/easy-image-gallery/includes/scripts.php"
+		"/Users/fabiantheblind/Documents/Code/extendscript/extendscript.wiki/groups.md"
 	],
 	"find":
 	{

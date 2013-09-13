@@ -1,4 +1,4 @@
-//test
+(function(thisObj){
 /*************************************************
 *
 * This script batch processes InDesign FNR
@@ -45,17 +45,6 @@
 
 
 /**
- * This runs the full script
- * @return {[type]} [description]
- */
-function bfnr_run(){
-var path = ((File($.fileName)).path);
-
-// $.evalFile(File(path + '/submodules/tomljs/toml.js'));// https://github.com/JonAbrams/tomljs
-
-// $.evalFile(File(path +'/submodules/JsonDiffPatch/src/jsondiffpatch.js')); // https://github.
-
-/**
  * the settings
  * @type {Object}
  */
@@ -67,9 +56,21 @@ var bfnr = {
   'do_grep':true,
   'do_glyph':false,
   'do_object':false,
-  'do_all_docs':true
-  }
+  'do_all_docs':true,
+  },
+  'count':0
 };
+/**
+ * This runs the full script
+ * @return {[type]} [description]
+ */
+function bfnr_run(){
+var path = ((File($.fileName)).path);
+
+// $.evalFile(File(path + '/submodules/tomljs/toml.js'));// https://github.com/JonAbrams/tomljs
+
+// $.evalFile(File(path +'/submodules/JsonDiffPatch/src/jsondiffpatch.js')); // https://github.
+
 // lets get the data
 var tomltxt = readfile('toml', path);
 if(tomltxt !==null){
@@ -100,7 +101,7 @@ alert("Sorry processing several docs is disabled for the moment until an issue i
     run_processor(doc, bfnr);
   }
 }
-alert("Done");
+alert("Done\nFound " +bfnr.count + " items");
 } // end of run function
 /**
  * [run_processor description]
@@ -142,6 +143,7 @@ for(var i = 0; i < list.length;i++){
     }
   // try{
   if(mode == SearchModes.TEXT_SEARCH){
+    bfnr.count += doc.findText().length;
     doc.changeText();
     }
   // }catch(e){
@@ -151,6 +153,8 @@ for(var i = 0; i < list.length;i++){
 
   if(mode == SearchModes.GREP_SEARCH){
     // empty_fc_fields(mode);
+    bfnr.count += doc.findGrep().length;
+
     doc.changeGrep();
     }
   //     }catch(e){
@@ -160,6 +164,8 @@ for(var i = 0; i < list.length;i++){
 
   if(mode == SearchModes.OBJECT_SEARCH){
     // empty_fc_fields(mode);
+    bfnr.count += doc.findObject().length;
+
     doc.changeObject();
     }
   //     }catch(e){
@@ -169,6 +175,7 @@ for(var i = 0; i < list.length;i++){
 
   if(mode == SearchModes.GLYPH_SEARCH){
     // empty_fc_fields(mode);
+    bfnr.count += doc.findGlyph().length;
     doc.changeGlyph();
     }
   // }catch(e){
@@ -1249,3 +1256,4 @@ getVal = function(valStr, strTokens) {
 // ********************************************************************************
 // now run all that tuff
 bfnr_run();
+})(this);
