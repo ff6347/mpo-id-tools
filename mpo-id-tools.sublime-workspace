@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"c",
+				"counter"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"my",
+				"myPage"
+			],
+			[
+				"the",
+				"theNumber"
+			],
+			[
 				"la",
 				"label"
 			],
@@ -190,10 +206,6 @@
 			[
 				"par",
 				"parent"
-			],
-			[
-				"the",
-				"theimage"
 			],
 			[
 				"th",
@@ -502,18 +514,6 @@
 			[
 				"de",
 				"detectType"
-			],
-			[
-				"bool",
-				"boolean"
-			],
-			[
-				"num",
-				"numfloat"
-			],
-			[
-				"test",
-				"test_patch"
 			]
 		]
 	},
@@ -529,6 +529,18 @@
 			[
 				"csv",
 				"Set Syntax: CSV"
+			],
+			[
+				"be",
+				"Javascript Beautify"
+			],
+			[
+				"bea",
+				"Javascript Beautify"
+			],
+			[
+				"ano",
+				"Snippet: enclose in anonymous function"
 			],
 			[
 				"CSV",
@@ -799,10 +811,6 @@
 				"Snippet: MIT JSX License Code"
 			],
 			[
-				"ano",
-				"Snippet: enclose in anonymous function"
-			],
-			[
 				"js com",
 				"Snippet: JS comment enclose"
 			],
@@ -1029,14 +1037,6 @@
 			[
 				"licen",
 				"Snippet: MIT JSX License Code"
-			],
-			[
-				"xml",
-				"Indent XML"
-			],
-			[
-				"css",
-				"Set Syntax: CSS"
 			]
 		],
 		"width": 647.0
@@ -1056,6 +1056,12 @@
 	},
 	"file_history":
 	[
+		"/Users/fabiantheblind/Desktop/JustStudio_S310_Controller_komplett_09131513.xml",
+		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/clear-price-layer.jsx",
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-pa-dj/pa/JustPA_S212_Powermischer_komplett_09131320.xml",
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-pa-dj/workfiles/s_204_JM2014_HDSerie.csv",
+		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/The-Numbers.jsx",
+		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-pa-dj/workfiles/endstufen_s211_jm_2013.csv",
 		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/CSV/README.md",
 		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/CSV/README.",
 		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/CSV/.gitignore",
@@ -1074,7 +1080,6 @@
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-test/JustDJ_S248_DigitaleVinylsysteme_komplett_09071233.xml",
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-test/JustDJ_S248NOIMAGE.xml",
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/Guides/screencast-grafiker.md",
-		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/The-Numbers.jsx",
 		"/Users/fabiantheblind/Library/Application Support/Sublime Text 2/Packages/js-beautify-sublime/Default (OSX).sublime-keymap",
 		"/Users/fabiantheblind/Documents/_projects/AfterEffects-Scripting/Monoline Text/hershey-monoline-text-dev/Monoline Text.jsx",
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/katalog-workspace-test/JustDJ_S247_MISSINGIMG.xml",
@@ -1178,12 +1183,7 @@
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/code/make-empty-files.py",
 		"/Users/fabiantheblind/Documents/_projects/just-music/jm-katalog-2014/test/justdj_s243_2deckdjcontroller_komplett_08161433.xml",
 		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/buildHyperlinks_FromArtNr.js",
-		"/Volumes/data/_downloads/geturl/GetURLs.jsx",
-		"/Applications/Adobe InDesign CC/Scripts/Scripts Panel/mpo-id-tools/Clear xml Structure.jsx",
-		"/Users/fabiantheblind/Desktop/ID_find_groups_Stackoverflow.jsx",
-		"/Users/fabiantheblind/Documents/Code/extendscript/extendscript.wiki/_Sidebar.md",
-		"/Users/fabiantheblind/Documents/Code/extendscript/extendscript.wiki/Groups.md",
-		"/Users/fabiantheblind/Documents/Code/extendscript/extendscript.wiki/groups.md"
+		"/Volumes/data/_downloads/geturl/GetURLs.jsx"
 	],
 	"find":
 	{
@@ -1216,6 +1216,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"129183",
+			"9122192",
+			"layer",
+			"prcs_findItemsNumber",
+			"prcs_placeAllPrices",
+			"price",
 			"bild",
 			"WARNINGS",
 			"Progress",
@@ -1337,13 +1343,7 @@
 			"==",
 			"myDialog",
 			"myAppendDialoge",
-			"prcs_sortNormal",
-			"prcs_getXPath",
-			"count",
-			"prcs_getXPath",
-			"count",
-			"&quote;",
-			"&QUOTE;"
+			"prcs_sortNormal"
 		],
 		"highlight": false,
 		"in_selection": false,
