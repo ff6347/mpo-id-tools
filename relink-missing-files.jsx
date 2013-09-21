@@ -31,9 +31,13 @@ var fileandfolderAr = scanSubFolders(topFolder);
     return;
 }
 
+
 var missedones = 0;
 
   myLinks = myDoc.links;
+var progress_win = new Window ("palette");
+ var progress = progress_bar(progress_win, myLinks.length , 'Relinking images!');
+
   for (oneLink=myLinks.length-1;oneLink>-1;oneLink--) {
     myLink = myLinks[oneLink];
   if(myLink.status == LinkStatus.LINK_MISSING){
@@ -52,7 +56,10 @@ myLink.relink(myNewLink);
     }
   }
   }
+  progress.value++;
 }
+
+progress.parent.close();
   // Dokument schließen - Sichern ohne zu fragen
   // myDoc.save();
 //  myDoc.close(SaveOptions.yes);
@@ -77,4 +84,31 @@ function scanSubFolders(tFolder)
       }
    }
    return [allFiles,sFolders];
-}})(this);
+
+}
+
+
+
+/**
+ * Taken from ScriptUI by Peter Kahrel
+ * @usage
+ * var progress_win = new Window ("palette");
+ *
+ * var progress = progress_bar(progress_win, 100, 'my Progress');
+ *
+ *       progress.value = i++;
+ *       progress.parent.close();// important close it!!
+ *
+ * @param  {Palette} w    the palette the progress is shown on
+ * @param  {Number} stop [description]
+ * @return {Progressbar}      [description]
+ */
+function progress_bar (w, stop, labeltext) {
+var txt = w.add('statictext',undefined,labeltext);
+var pbar = w.add ("progressbar", undefined, 1, stop); pbar.preferredSize = [300,20];
+pbar.value = 0;
+w.show ();
+return pbar;
+}
+
+})(this);
