@@ -157,7 +157,11 @@ function makeButton(theItem, myPage, d){
     set_label(myOV01,"Art-Nr. " + theItem);
 
     myOV01.geometricBounds = [OY1, OX1 ,OY2 , OX2];
-      myOV01.applyObjectStyle(myNullObjStyle);
+    myOV01.applyObjectStyle(myNullObjStyle);
+    var bgov = myOV01.duplicate();
+    // addition in 2013_09_26 - 14_05_49
+    bgov.fillColor = d.swatches[1];
+    bgov.sendToBack(myOV01);
 
     try{
     myString =  myImages.xmlElements.item(0).xmlAttributes.item(1).value;
@@ -173,6 +177,8 @@ function makeButton(theItem, myPage, d){
     myOV01.place( File( d.filePath + "/" + myString ));
     myOV01.fit(FitOptions.CENTER_CONTENT);
     myGroup.push(myOV01);
+    myGroup.push(bgov);
+
     } catch (e) {
       if(obj.WARNINGS) alert("there is no image available!");
       exit();
