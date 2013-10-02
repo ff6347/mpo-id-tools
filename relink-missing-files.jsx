@@ -15,6 +15,7 @@
 main();
 function main (){
 var topFolder = Folder.selectDialog ("Choose a Folder...");
+if (topFolder === null){return;}
 
 var fileandfolderAr = scanSubFolders(topFolder);
 
