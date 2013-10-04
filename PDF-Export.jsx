@@ -27,6 +27,19 @@
   // export with the current PDF settings
   //
   //
+  //
+
+/**
+ * Change these to fit your needs
+ * @type {Object}
+ */
+  var exporter_data = {
+    "prefix":"S_",
+    "suffix":"_korrigiert"
+  };
+
+
+
   var msg = {
     "file_open":function(e){
       alert("seems like the file you want to overwrite is already open.\nPlease close it.\nError:\n"+ e);
@@ -45,7 +58,10 @@ var topFolder = Folder.selectDialog ("Choose Export Folder...");
 if(topFolder === null){
   return;
 }
-var outFilePath = topFolder.path + "/S_" + pg.name + "_korrigiert.pdf";
+// alert(topFolder.path);
+
+// alert("something" + topFolder.fsName);
+var outFilePath = topFolder.fsName + "/" + exporter_data.prefix + pg.name + exporter_data.suffix+".pdf";
 var outFile = File(outFilePath);
 
 if(outFile.exists){
