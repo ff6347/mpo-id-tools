@@ -35,7 +35,7 @@
  */
   var exporter_data = {
     "prefix":"S_",
-    "suffix":"_korrigiert"
+    "suffix":"_korrigiert_2"
   };
 
 
