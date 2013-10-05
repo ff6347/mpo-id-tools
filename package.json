@@ -1,0 +1,30 @@
+{
+  "name": "mpo-id-tools",
+  "version": "0.4.3",
+  "description": "just feddeling",
+  "main": "move-textframes-to-back.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fiddel"
+  ],
+  "author": "fabiantheblind",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib": "~0.7.0",
+    "grunt-contrib-coffee": "~0.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fabiantheblind/mpo-id-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fabiantheblind/mpo-id-tools/issues"
+  }
+}
