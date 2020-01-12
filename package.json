@@ -13,12 +13,12 @@
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-coffee": "~0.7.0"
+    "grunt-contrib-coffee": "0.13.0"
   },
   "dependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib": "~0.7.0",
-    "grunt-contrib-coffee": "~0.7.0"
+    "grunt-contrib-coffee": "~0.13.0"
   },
   "repository": {
     "type": "git",
