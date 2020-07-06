@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "grunt": "~1.2.0",
-    "grunt-contrib": "~0.7.0",
+    "grunt-contrib": "~0.10.0",
     "grunt-contrib-coffee": "~0.13.0"
   },
   "repository": {
